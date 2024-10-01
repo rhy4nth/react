@@ -1,9 +1,9 @@
 
 
-const layout =({children})=> {
+const Layout =({children})=> {
     return(
         <section className="container">
-            {Children}
+            {children}
         </section>
 
     );

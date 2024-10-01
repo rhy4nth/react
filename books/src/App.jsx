@@ -1,19 +1,21 @@
 import { useState } from "react";
 import './App.css';
 import Booklist from "./components/Booklist";
-import Header from './components/header';
+import Header from './components/Header';
+import Book from './components/Book';
+import Layout from './components/Layout'
 
 
 
 function App() {
   return (
     <>
-    <book title="boek 1" author="beau" image="./images/book.webp"/>
+    <Header/>
+    <Book title="boek 1" author="beau" image="./images/book.webp"/>
 
-    <layout>
-      <Header/>
+    <Layout>
         <Booklist/>
-    </layout>
+    </Layout>
     </>
   )
 }
