@@ -6,13 +6,12 @@ import Header from './components/header';
 
 
 function App() {
-  
-
   return (
     <>
+    <book title="boek 1" author="beau" image="./images/book.webp"/>
 
     <layout>
-      <header/>
+      <Header/>
         <Booklist/>
     </layout>
     </>
