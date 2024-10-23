@@ -11,10 +11,12 @@ function App() {
   return (
     <>
     <Header/>
-    <Book title="boek 1" author="beau" image="./images/book.webp"/>
-
     <Layout>
-        <Booklist/>
+     
+    <h1>dit zijn mijn boeken</h1>
+    <Book title="boek 1" author="beau" image="./images/book.webp"/>
+    <Book title="boek 1" author="beau" image="./images/book.webp"/>
+    
     </Layout>
     </>
   )
